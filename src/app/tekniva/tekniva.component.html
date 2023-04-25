@@ -1,0 +1,17 @@
+<div class="content">
+        <div style="display: flex; flex-direction: row; gap: 50px;flex-wrap: wrap;" >
+            <p-card header="Tekniva" [style]="{ width: '360px' }" *ngIf="!test" (click)="Show()" >
+                <p class="m-0">
+                    tekniva
+                </p>
+            </p-card>
+            <p-card header="Innevlab" [style]="{ width: '360px' }" *ngIf="!test" (click)="Show()">
+                <p class="m-0">
+                    tekniva
+                </p>
+            </p-card>
+        </div>
+        <div style="flex-wrap: wrap;">
+            <p-tabMenu *ngIf='test' [model]="items" ></p-tabMenu>
+        </div>
+	</div>

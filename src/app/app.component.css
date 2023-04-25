@@ -1,0 +1,143 @@
+/* Navigation bar styles */
+body{
+    flex-wrap: wrap;
+}
+nav {
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0px 2px 6px rgba(150, 149, 149, 0.1);
+    
+}
+.logo{
+    height: 35px;
+    width: 160px;
+    
+}
+
+ nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    
+}
+
+
+nav li {
+	float: left;
+} 
+
+ nav a {
+	display: flex;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+} 
+
+ nav a:hover {
+	background-color: white;
+} 
+
+/* Sidebar styles */
+.sidebar {
+    flex-wrap: wrap;
+	background-color: #ffffff;
+	height: 100%;
+	position: fixed;
+	width: 200px;
+    left: 0;
+    z-index: 55;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    display: inline;
+}
+
+.sidebar ul {
+	list-style: none;
+	/* margin: 0;
+	padding: 0; */
+    margin-top: 55px;
+}
+
+.sidebar li {
+    list-style: none;
+    width: 120%;
+	/* border-bottom: 1px solid #ddd; */
+}
+
+.sidebar a {
+	display: block;
+	color: #000000;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+
+.sidebar a:hover {
+	background-color: #ffffff;
+} 
+
+/* Main content styles */
+.content {
+    flex-wrap: wrap;
+    z-index: 40;
+	margin-left: 140px;
+	padding: 80px;
+    /* padding:  calc(80px + var(--navbar-height, 0px)); */
+   
+}
+
+.menu {
+   margin-top: 50px;
+    position: relative;
+    left: 0;
+    
+    display:flex;
+
+  }
+  .menu div {
+   /* display: block; */
+   padding-bottom: 100%;
+   top: 100%;
+   left:0;
+   position:absolute;
+
+  
+      }
+
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    
+  }
+  
+  .menu ul li {
+    list-style: none;
+    position:relative;
+    left: 0;
+    width: auto;
+    border: none!important;
+    margin-top: 10px;
+   
+
+  }
+  
+  .menu ul li:hover {
+    background-color: #ffffff;
+  }
+  
+  .menu ul li a {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+ 
+ 

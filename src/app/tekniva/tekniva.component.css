@@ -1,0 +1,8 @@
+.content {
+    flex-wrap: wrap;
+    z-index: 40;
+	margin-left: 140px;
+	padding: 80px;
+    /* padding:  calc(80px + var(--navbar-height, 0px)); */
+   
+}
